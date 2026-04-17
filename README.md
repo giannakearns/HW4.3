@@ -46,5 +46,3 @@ Gianna Kearns
 Pennsylvania State University  
 
 For questions, please contact via Penn State email: gmk5637@psu.edu
-
-updated on work branch
