@@ -10,6 +10,7 @@ The project analyzes passenger traffic across six major airports over time and e
 ### Interesting Insight (Optional)
 
 One key insight from this project is how the Monte Carlo simulation demonstrated that increasing the number of random sample points leads to more accurate estimates. At low sample sizes, results vary widely, but as the number of points increases, the estimate stabilizes and approaches the true value of 1 for the area under the standard normal curve.
+![Monte Carlo Simulation](monte_carlo_small_multiple.png)
 
 ## Data Sources and Acknowledgements
 
@@ -45,3 +46,5 @@ Gianna Kearns
 Pennsylvania State University  
 
 For questions, please contact via Penn State email: gmk5637@psu.edu
+
+updated on work branch
