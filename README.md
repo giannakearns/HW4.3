@@ -1,28 +1,47 @@
-# Project Title
+# HW #4.3: Reproducible Data Analysis
 
-Write a 1-2 sentences that quickly and clearly convey what your repo is for.
+This repository contains my HW 4.3 assignment for STAT 184. It includes a Quatro (.qmd) file used for simulation and data analysis, along with the final rendered PDF submission.
 
 ## Overview
 
-Expand on those introductory sentences with a brief but informative description of your project's purpose and goals. This section should help visitors decide whether they should dig deeper into your repo/project.
+This project presents a reproducible data analysis created using Quarto. It combines multiple components from prior coursework into a single, organized report that includes data wrangling, visualization, and written interpretation.
+The project analyzes passenger traffic across six major airports over time and explores how simulation methods like Monte Carlo integration can approximate mathematical values. It also examines the use of generative AI tools by comparing a structured, plan-based prompt with a generic prompt to evaluate differences in output quality. The goal of this project is to demonstrate both technical data analysis skills and effective communication of results.
 
 ### Interesting Insight (Optional)
 
-This is optional but highly recommended. You'll include one interesting insight from your project as part of the README. This insight is most effective when you include a visual. Keep in mind that this visual must be included as an image file (e.g., JPG, PNG, etc.). You can export plots created with `{ggplot2}` by using the function `ggsave`.
+One key insight from this project is how the Monte Carlo simulation demonstrated that increasing the number of random sample points leads to more accurate estimates. At low sample sizes, results vary widely, but as the number of points increases, the estimate stabilizes and approaches the true value of 1 for the area under the standard normal curve.
 
 ## Data Sources and Acknowledgements
 
-Be sure to list where you got any data used within the project. Be sure to acknowledge any one whose work or elements you're drawing upon.
+- Airport passenger traffic data were scraped from: https://en.wikipedia.org/wiki/List_of_busiest_airports_by_passenger_traffic
+- Calcium dataset provided by course materials (longitudinal study of calcium levels in women)
+- This project also utilized:
+  - R packages: {tidyverse}, {rvest}, {ggplot2}, {patchwork}
+  - Microsoft Copilot (with enterprise data protection) for the generative AI comparison section
 
 ## Current Plan
 
-Provide some information about what you intend to doe with the project. You can additionally refer the visitor to your detailed plan document.
+This project serves as a foundation for future reproducible analyses. Future improvements could include:
+- adding statistical analysis to compare trends between groups
+- refining visualizations for clarity and presentation quality
+- expanding the GenAI comparison to include multiple tools or prompts
+This project may also be extended in future assignments as part of a larger workflow.
 
 ## Repo Structure
 
-Use this section to explain the structure of your repo. This should help visitors quickly figure out where they should look to find certain elements. Further, you can use this space to highlight and briefly explain important/key files in the repo.
+This repository is organized to support reproducibility and clarity:
+- hw4.3.qmd -> Main Quarto document containing the full analysis
+- hw4.3.pdf -> Rendered output for submission
+- calcium.csv -> Dataset used for GenAI analysis
+- monte_carlo_small_multiple.png -> Image used for Monte Carlo visualization
+The Quarto document contains:
+- main analysis sections (airports, Monte Carlo, GenAI comparison)
+- appendices with code and AI usage documentation
 
 
 ## Authors
 
-Give information about who are the authors of the project and how people can get in touch if they have questions.
+Gianna Kearns  
+Pennsylvania State University  
+
+For questions, please contact via Penn State email: gmk5637@psu.edu
